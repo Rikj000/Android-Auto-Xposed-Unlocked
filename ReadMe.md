@@ -26,10 +26,11 @@ Custom Android Auto launcher, unleash your AA app, unlock more features!
 #### Other Devices
 1. Install [Magisk](https://topjohnwu.github.io/Magisk/install.html)
 2. Magisk => Settings => Magisk => Check `Zygisk`
-3. Install [LSPosed (Zygisk) + Shamiko](https://lsposed.org/)
-4. Install the [Android-Auto-XLauncher-Unlocked](https://github.com/Rikj000/Android-Auto-XLauncher-Unlocked/releases) app with [KingInstaller](https://github.com/fcaronte/KingInstaller)
-5. LSPosed => Modules => Check `Enable module` + Check `Android Auto`
-6. Reboot
+3. Magisk => Settings => Magisk => Configure DenyList => Triple Dot Icon => Check `Show system apps` => UnCheck `Android Auto` (= Default)
+4. Install [LSPosed (Zygisk)](https://github.com/LSPosed/LSPosed/releases/latest) + [Shamiko](https://github.com/LSPosed/LSPosed.github.io/releases/latest)
+5. Install the [Android-Auto-XLauncher-Unlocked](https://github.com/Rikj000/Android-Auto-XLauncher-Unlocked/releases/latest) app with [KingInstaller](https://github.com/fcaronte/KingInstallerreleases/latest)
+6. LSPosed => Modules => Check `Enable module` + Check `Android Auto`
+7. Reboot
 
 
 ## Features
@@ -93,3 +94,15 @@ Check out:
 
 ## Sources
 Credits for [the hooks](https://github.com/AndreyPavlenko/Fermata/commit/f05862f12fa4fe2286c486b6f2adbe09c3e993ce#diff-01877b9e81e32d728d1e9e85e26c85cdfba52fd59010025785236ba117c3633c) from [Fermata](https://github.com/AndreyPavlenko/Fermata) by @AndreyPavlenko!
+
+## LSPosed Archived
+LSPosed indeed sadly has been archived.   
+However XPosed has continued on living in the past through new forks,   
+and I believe it will continue to do so.
+
+I've opened an issue,   
+which helps keep track of the status of upcoming successor forks:   
+https://github.com/Rikj000/Android-Auto-XLauncher-Unlocked/issues/6
+
+Android 15 users require these since official LSPosed only supports up to Android 14.   
+`@arnii5` reported good results [on XDA](https://xdaforums.com/t/release-v1-0-1-belfius-root.4680025/#post-89782267) with [JingMatrix/LSPosed](https://github.com/JingMatrix/LSPosed) on Android 15.
